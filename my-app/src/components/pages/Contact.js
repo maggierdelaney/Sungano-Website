@@ -9,7 +9,7 @@ export default function Contact() {
             <label id="contact-font" for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
           </div>
-          <div class="form-group">
+          <div id="contact-font" class="form-group">
             <label id="contact-font" for="exampleFormControlTextarea1">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>

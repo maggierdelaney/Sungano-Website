@@ -3,6 +3,7 @@ import './pages/style.css';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
+    <div id="behind-nav">
     <ul id="nav-flex" className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -50,6 +51,7 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

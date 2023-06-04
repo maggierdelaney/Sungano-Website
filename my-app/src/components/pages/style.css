@@ -5,7 +5,10 @@
 /*Oi font, Major Mono font, Delicus font, Erica font*/
 * {
     font-family: 'Oi', cursive;
-    background-color: white;
+    background-color:#f0ece2;
+}
+
+h1 {
     color: black;
 }
 
@@ -20,8 +23,8 @@
     padding-bottom: 20px;
 }
 
-#nav-flex {
-    padding-top: 50px;
+#behind-nav {
+    background-color:#f0ece2; 
 }
 
 #contact-title {
@@ -31,12 +34,12 @@
 /*removes the lines from under the links, changes color to black*/
 a {
     text-decoration: none;
-    color: black;
+    color: #69779b;
 }
 
 a.nav-link {
     text-decoration: none;
-    color: black;
+    color: #69779b;
 }
 
 h1 {
@@ -53,6 +56,8 @@ nav {
 
 /*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
 #nav-flex {
+    padding-top: 50px;
+    background-color:#f0ece2;
     align-items: center;
     display: inline-flex;
     flex-direction: row;
@@ -60,8 +65,7 @@ nav {
     justify-content: space-around;
     height: 100%;
     width: 100%;
-    background-color: white;
-    color: black;
+    color: #69779b;
     text-decoration: none;
 }
 
