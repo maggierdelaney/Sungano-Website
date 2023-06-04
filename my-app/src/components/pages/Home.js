@@ -4,7 +4,7 @@ import './style.css';
 export default function Home() {
   return (
     <div class="container">
-      <h2>Home</h2>
+      <img src={require("../images/joshua-tree.JPG")} class="img-fluid" alt="Responsive image"></img>
     </div>
   );
 }
