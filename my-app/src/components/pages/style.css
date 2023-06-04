@@ -1,5 +1,7 @@
 /*ALL CSS CHANGES GO HERE*/
 
+/*currently using this color palette: https://designs.ai/colors/palette/36*/
+
 /*sets the font for all headings, lavendar background color, and black text*/
 /*FONT TESTING*/
 /*Oi font, Major Mono font, Delicus font, Erica font*/
@@ -24,7 +26,8 @@ h1 {
 }
 
 #behind-nav {
-    background-color:#f0ece2; 
+    background-color:#f0ece2;
+    margin-top: -10px;
 }
 
 #contact-title {
@@ -42,6 +45,15 @@ a.nav-link {
     color: #69779b;
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+/*remvoes the ugly blue hover aspect and change to desired style*/
+a.nav-link:hover {
+    color: #acdbdf;
+}
+
 h1 {
     font-size: 75px;
     text-align: center;
@@ -51,7 +63,17 @@ h1 {
 nav {
     text-align: center;
     padding-bottom: 50px;
+}
 
+#img-fluid {
+    max-width: 50%;
+    height: auto;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 10px;
 }
 
 /*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
