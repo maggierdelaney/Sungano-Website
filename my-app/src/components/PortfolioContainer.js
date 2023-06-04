@@ -5,6 +5,7 @@ import Commercial from './pages/Commercial';
 import Editorial from './pages/Editorial';
 import Social from './pages/Social';
 import Contact from './pages/Contact';
+import './pages/style.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');

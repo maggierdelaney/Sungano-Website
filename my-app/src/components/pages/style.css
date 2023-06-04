@@ -9,6 +9,25 @@
     color: black;
 }
 
+/*style for the form font*/
+#contact-font {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*spacing out form components*/
+.form-group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-flex {
+    padding-top: 50px;
+}
+
+#contact-title {
+    padding-top: 20px;
+}
+
 /*removes the lines from under the links, changes color to black*/
 a {
     text-decoration: none;
