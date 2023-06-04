@@ -1,0 +1,77 @@
+/*ALL CSS CHANGES GO HERE*/
+
+/*sets the font for all headings, lavendar background color, and black text*/
+/*FONT TESTING*/
+/*Oi font, Major Mono font, Delicus font, Erica font*/
+* {
+    font-family: 'Oi', cursive;
+    background-color: white;
+    color: black;
+}
+
+/*removes the lines from under the links, changes color to black*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+/*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
+#nav-flex {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+/*defines the size of screen at which the responsive design kicks in*/
+@media screen and (max-width: 1101px) {
+    article {
+        align-items: center;
+    }
+
+    article div {
+        align-items: center;
+        width: 100%;
+    }
+
+    .big-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #nav-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
