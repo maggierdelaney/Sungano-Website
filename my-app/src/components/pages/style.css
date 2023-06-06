@@ -1,20 +1,115 @@
-/*ALL CSS CHANGES GO HERE*/
-
-/*currently using this color palette: https://designs.ai/colors/palette/36*/
-
 /*sets the font for all headings, lavendar background color, and black text*/
+
 /*FONT TESTING*/
-/*Oi font, Major Mono font, Delicus font, Erica font*/
-* {
+/*Oi font, Delicus font, Erica font*/
+/** {
     font-family: 'Oi', cursive;
-    background-color:#eddcd9;
+    background-color: #eddcd9;
+}*/
+
+/*Major Mono Font*/
+* {
+    font-family: 'Major Mono Display', monospace;
+    background-color: white;
 }
+
+/*HOME PAGE STYLING*/
 
 h1.display-4 {
-    color: #de5499;
+    color: black;
 }
 
+#home-page {
+    justify-content: center;
+}
 
+#text-over-img {
+    background-color: transparent;
+    text-align: left;
+    top: 300px;
+}
+
+.stats {
+    font-family: 'Major Mono Display', monospace;
+    background-color: transparent;
+    list-style-type: none;
+}
+
+#behind-nav {
+    background-color: white;
+    margin-top: -10px;
+}
+
+/*removes the lines from under the links, changes color to black*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+/*remvoes the ugly blue hover aspect and change to desired style*/
+a.nav-link:hover {
+    color: #881a07;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.nav-link {
+    font-family: 'Major Mono Display', monospace;
+}
+
+#img-fluid {
+    max-width: 100%;
+    height: auto;
+    align-items: right;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+/*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
+#nav-flex {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+/*CARD STYLING*/
 /*this is what is causing the white rectangles on the editorial photos*/
 /*.card {
     width: 18rem;
@@ -47,9 +142,10 @@ h1.display-4 {
     width: 100%;
 }
 
+/*CONTACT STYLING*/
 /*style for the form font*/
 #contact-font {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Major Mono Display', monospace;
 }
 
 /*spacing out form components*/
@@ -58,83 +154,11 @@ h1.display-4 {
     padding-bottom: 20px;
 }
 
-#behind-nav {
-    background-color:#eddcd9;
-    margin-top: -10px;
-}
-
 #contact-title {
     padding-top: 20px;
 }
 
-/*removes the lines from under the links, changes color to black*/
-a {
-    text-decoration: none;
-    color: #264143;
-}
-
-a.nav-link {
-    text-decoration: none;
-    color: #264143;
-    font-size: 20px;
-}
-
-.jumbotron {
-    margin-bottom: 0px;
-}
-
-/*remvoes the ugly blue hover aspect and change to desired style*/
-a.nav-link:hover {
-    color: #e99f4c;
-}
-
-h1 {
-    font-size: 75px;
-    text-align: center;
-    padding-top: 50px;
-}
-
-nav {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.nav-link {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#img-fluid {
-    max-width: 50%;
-    height: auto;
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-right: 10px;
-}
-
-/*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
-#nav-flex {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    background-color:#eddcd9;
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-    color: #264143;
-    text-decoration: none;
-}
-
-header {
-    text-align: center;
-    padding-right: 40px;
-    padding-bottom: 50px;
-}
+/*MOBILE RESPONSIVE*/
 
 /*defines the size of screen at which the responsive design kicks in*/
 @media screen and (max-width: 1101px) {

@@ -19,12 +19,12 @@ function Nav({ currentPage, handlePageChange }) {
             className={currentPage === 'Editorial' ? 'nav-link active' : 'nav-link'}>Editorial</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#social" onClick={() => handlePageChange('Social')}
-            className={currentPage === 'Social' ? 'nav-link active' : 'nav-link'}>Social</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" href="#contact" onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#social" onClick={() => handlePageChange('Social')}
+            className={currentPage === 'Social' ? 'nav-link active' : 'nav-link'}>Social</a>
         </li>
       </ul>
     </div>
