@@ -7,16 +7,49 @@
 /*Oi font, Major Mono font, Delicus font, Erica font*/
 * {
     font-family: 'Oi', cursive;
-    background-color:#f0ece2;
+    background-color:#eddcd9;
 }
 
-h1 {
-    color: black;
+h1.display-4 {
+    color: #de5499;
+}
+
+
+/*this is what is causing the white rectangles on the editorial photos*/
+/*.card {
+    width: 18rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eddcd9;
+}*/
+
+.card {
+    width: 18rem;
+}
+
+#com-cards {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+#edi-cards {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
 }
 
 /*style for the form font*/
 #contact-font {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*spacing out form components*/
@@ -26,7 +59,7 @@ h1 {
 }
 
 #behind-nav {
-    background-color:#f0ece2;
+    background-color:#eddcd9;
     margin-top: -10px;
 }
 
@@ -37,12 +70,13 @@ h1 {
 /*removes the lines from under the links, changes color to black*/
 a {
     text-decoration: none;
-    color: #69779b;
+    color: #264143;
 }
 
 a.nav-link {
     text-decoration: none;
-    color: #69779b;
+    color: #264143;
+    font-size: 20px;
 }
 
 .jumbotron {
@@ -51,7 +85,7 @@ a.nav-link {
 
 /*remvoes the ugly blue hover aspect and change to desired style*/
 a.nav-link:hover {
-    color: #acdbdf;
+    color: #e99f4c;
 }
 
 h1 {
@@ -63,6 +97,10 @@ h1 {
 nav {
     text-align: center;
     padding-bottom: 50px;
+}
+
+.nav-link {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #img-fluid {
@@ -79,7 +117,8 @@ nav {
 /*makes the nav bar into a flex box for responsive design, allows it to stack vertically with smaller screen*/
 #nav-flex {
     padding-top: 50px;
-    background-color:#f0ece2;
+    padding-bottom: 30px;
+    background-color:#eddcd9;
     align-items: center;
     display: inline-flex;
     flex-direction: row;
@@ -87,7 +126,7 @@ nav {
     justify-content: space-around;
     height: 100%;
     width: 100%;
-    color: #69779b;
+    color: #264143;
     text-decoration: none;
 }
 
