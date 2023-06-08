@@ -22,9 +22,9 @@ function Nav({ currentPage, handlePageChange }) {
           <a class="nav-link active" href="#contact" onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link active" href="#social" onClick={() => handlePageChange('Social')}
-            className={currentPage === 'Social' ? 'nav-link active' : 'nav-link'}>Social</a>
+          <a class="nav-link active" href="https://www.instagram.com/sungano/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>

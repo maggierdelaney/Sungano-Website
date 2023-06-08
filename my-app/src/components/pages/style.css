@@ -1,5 +1,19 @@
 /*sets the font for all headings, lavendar background color, and black text*/
 
+/*ig icon*/
+#fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+#fa-instagram {
+    background: #f803e3;
+    color: white;
+  }
+
 /*FONT TESTING*/
 /*Oi font, Delicus font, Erica font*/
 /** {

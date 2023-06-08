@@ -3,7 +3,6 @@ import Nav from './Nav';
 import Home from './pages/Home';
 import Commercial from './pages/Commercial';
 import Editorial from './pages/Editorial';
-import Social from './pages/Social';
 import Contact from './pages/Contact';
 import './pages/style.css';
 
@@ -19,9 +18,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Editorial') {
       return <Editorial />;
     }
-    if (currentPage === 'Social') {
-        return <Social />;
-      }
     return <Contact />;
   };
 
