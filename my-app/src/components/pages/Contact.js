@@ -4,14 +4,14 @@ import './style.css';
 export default function Contact() {
   return (
     <div class="container">
-        <form>
+        <form method="post">
           <div id="contact-font" class="form-group">
-            <label id="contact-font" for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+            <label id="contact-font" for="email">Email address</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required></input>
           </div>
           <div id="contact-font" class="form-group">
-            <label id="contact-font" for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label id="contact-font" for="message">Message</label>
+            <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
           </div>
           <button id="contact-font" type="submit" class="btn btn-primary">Submit</button>
         </form>
