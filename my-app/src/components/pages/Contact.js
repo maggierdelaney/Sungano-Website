@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.css';
 
+//in <form, see where "contactform.php" was added
+
 export default function Contact() {
   return (
     <div class="container">
-        <form method="post">
+        <form method="post" action="contactform.php">
           <div id="contact-font" class="form-group">
             <label id="contact-font" for="email">Email address</label>
             <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required></input>
