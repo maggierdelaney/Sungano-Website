@@ -6,7 +6,7 @@ import './style.css';
 export default function Contact() {
   return (
     <div class="container">
-        <form method="post" action="contactform.php">
+        <form action="mailto:md472@nau.edu" method="get" enctype="text/plain">
           <div id="contact-font" class="form-group">
             <label id="contact-font" for="email">Email address</label>
             <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required></input>
