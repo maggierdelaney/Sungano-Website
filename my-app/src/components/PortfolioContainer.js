@@ -7,10 +7,10 @@ import Contact from './pages/Contact';
 import './pages/style.css';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
     if (currentPage === 'Commercial') {
       return <Commercial />;
@@ -18,7 +18,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Editorial') {
       return <Editorial />;
     }
-    return <Contact />;
+    return <Home />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
