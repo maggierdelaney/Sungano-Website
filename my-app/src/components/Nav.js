@@ -11,6 +11,11 @@ function Nav({ currentPage, handlePageChange }) {
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link active" href="#stats"
+            onClick={() => handlePageChange('Stats')}
+            className={currentPage === 'Stats' ? 'nav-link active' : 'nav-link'}>Stats</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" href="#commercial" onClick={() => handlePageChange('Commercial')}
             className={currentPage === 'Commercial' ? 'nav-link active' : 'nav-link'}>Commercial</a>
         </li>

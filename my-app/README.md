@@ -37,6 +37,13 @@ On the home page, you notice the client's name at the top, with a simple navigat
 - "Contact" allows you to send an email form to the client to get in touch
 - "Instagram symbol" will take you to the client's social media page
 
+###To push to AWS
+```bash
+pwd
+cd my-app
+./helpers/upload-website.sh
+```
+
 ## License
 
 This project is licensed under the terms of the MIT license.

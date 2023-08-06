@@ -39,7 +39,7 @@ h1.display-4 {
 
 #text-over-img {
     background-color: transparent;
-    text-align: left;
+    text-align: center;
     top: 300px;
 }
 
@@ -47,6 +47,7 @@ h1.display-4 {
     font-family: 'Major Mono Display', monospace;
     background-color: transparent;
     list-style-type: none;
+    color: black;
 }
 
 #behind-nav {
