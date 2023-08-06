@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Commercial from './pages/Commercial';
 import Editorial from './pages/Editorial';
 import Contact from './pages/Contact';
-import Stats from './pages/Stats';
+import Stats from './pages/Digital';
 import './pages/style.css';
 
 export default function PortfolioContainer() {
@@ -19,7 +19,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Editorial') {
       return <Editorial />;
     }
-    if (currentPage === 'Stats') {
+    if (currentPage === 'Digital') {
       return <Stats />;
     }
     return <Home />;

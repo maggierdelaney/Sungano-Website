@@ -39,8 +39,7 @@ h1.display-4 {
 
 #text-over-img {
     background-color: transparent;
-    text-align: center;
-    top: 300px;
+    text-align: left;
 }
 
 .stats {
