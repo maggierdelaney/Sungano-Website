@@ -15,32 +15,12 @@ export default function Editorial() {
           </div> */}
       </div>
       <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/black-neck.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
         <img class="card-img-top" src={require("../images/editorial/black-side.JPG")} alt="Card image cap"></img>
         {/* <div class="card-body">
           </div> */}
       </div>
       <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/black-squat.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/color-neck.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
         <img class="card-img-top" src={require("../images/editorial/braids.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/hat.JPG")} alt="Card image cap"></img>
         {/* <div class="card-body">
           </div> */}
       </div>
@@ -90,27 +70,12 @@ export default function Editorial() {
           </div> */}
       </div>
       <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/rock-far.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/rock-front.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
         <img class="card-img-top" src={require("../images/editorial/rock-side.JPG")} alt="Card image cap"></img>
         {/* <div class="card-body">
           </div> */}
       </div>
       <div class="card">
         <img class="card-img-top" src={require("../images/editorial/shoes.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/editorial/white-jacket-front.JPG")} alt="Card image cap"></img>
         {/* <div class="card-body">
           </div> */}
       </div>

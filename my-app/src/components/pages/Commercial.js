@@ -5,31 +5,6 @@ export default function Commercial() {
   return (
     <div id="com-cards">
       <div class="card">
-        <img class="card-img-top" src={require("../images/makeup.HEIC")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/eye-makeup.HEIC")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-        </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/commercial/black-crop.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-        </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/commercial/blue-dress-side.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/commercial/blue-dress.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
         <img class="card-img-top" src={require("../images/commercial/romper-side.JPG")} alt="Card image cap"></img>
         {/* <div class="card-body">
           </div> */}
@@ -39,17 +14,6 @@ export default function Commercial() {
         {/* <div class="card-body">
           </div> */}
       </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/commercial/white-shirt-front.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-      <div class="card">
-        <img class="card-img-top" src={require("../images/commercial/white-shirt-up.JPG")} alt="Card image cap"></img>
-        {/* <div class="card-body">
-          </div> */}
-      </div>
-
     </div>
   );
 }

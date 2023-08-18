@@ -19,7 +19,7 @@ export default function Digital() {
             <img class="d-block w-100" src={require("../images/editorial/black-lunge.JPG")} alt="Second slide"></img>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src={require("../images/editorial/black-neck.JPG")} alt="Third slide"></img>
+            <img class="d-block w-100" src={require("../images/editorial/color-neck.JPG")} alt="Third slide"></img>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
