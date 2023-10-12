@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div class="container">
       <div class="container">
-        <ul id="text-over-img">STATS
+        <ul class="stats-text" id="text-over-img">STATS
           <li class="stats">
             Bust: 33.25’
           </li>
@@ -24,9 +24,10 @@ export default function Contact() {
         </ul>
       </div>
       <br></br>
-      <p>
-        For inquiries, please reach out to <a href="https://www.instagram.com/lrgmodelagency/">@lrgmodelagency</a> or direct message on instagram.
+      <p class="stats-text">
+        For inquiries, please direct message on instagram<a id="stats-text" class="nav-link active" href="https://www.instagram.com/sungano/">@sungano</a>
       </p>
+      <br></br>
     </div>
   );
 }

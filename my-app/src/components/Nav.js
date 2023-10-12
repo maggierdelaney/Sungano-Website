@@ -8,24 +8,19 @@ function Nav({ currentPage, handlePageChange }) {
         <li class="nav-item">
           <a class="nav-link active" href="#home"
             onClick={() => handlePageChange('Home')}
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#digital"
-            onClick={() => handlePageChange('Digital')}
-            className={currentPage === 'Digital' ? 'nav-link active' : 'nav-link'}>Digital</a>
+            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}><strong>H</strong>ome</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#commercial" onClick={() => handlePageChange('Commercial')}
-            className={currentPage === 'Commercial' ? 'nav-link active' : 'nav-link'}>Commercial</a>
+            className={currentPage === 'Commercial' ? 'nav-link active' : 'nav-link'}><strong>c</strong>ommercial</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#editorial" onClick={() => handlePageChange('Editorial')}
-            className={currentPage === 'Editorial' ? 'nav-link active' : 'nav-link'}>Editorial</a>
+            className={currentPage === 'Editorial' ? 'nav-link active' : 'nav-link'}><strong>e</strong>ditorial</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#contact" onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}><strong>c</strong>ontact</a>
         </li>
         
         <li class="nav-item">
