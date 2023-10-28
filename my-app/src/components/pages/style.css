@@ -37,6 +37,10 @@
 
 /*HOME PAGE STYLING*/
 
+#jumbotron {
+    font-size: 80px;
+}
+
 h1.display-4 {
     color: black;
 }
@@ -133,14 +137,6 @@ header {
     padding-bottom: 50px;
 }
 
-/*CARD STYLING*/
-/*this is what is causing the white rectangles on the editorial photos*/
-/*.card {
-    width: 18rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #eddcd9;
-}*/
 
 .card {
     width: 18rem;
