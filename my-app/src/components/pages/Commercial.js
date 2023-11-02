@@ -59,7 +59,7 @@ export default function Commercial() {
           ))}
         </div>
       </div>
-<br></br>
+      <br></br>
       <div className="container">
         <div className="row">
           {[
@@ -78,7 +78,7 @@ export default function Commercial() {
           ))}
         </div>
       </div>
-<br></br>
+      <br></br>
       <div className="container">
         <div className="row">
           {[
@@ -97,7 +97,7 @@ export default function Commercial() {
           ))}
         </div>
       </div>
-<br></br>
+      <br></br>
       <div className="container">
         <div className="row">
           {[
@@ -117,7 +117,7 @@ export default function Commercial() {
           ))}
         </div>
       </div>
-<br></br>
+      <br></br>
       <Modal show={showModal} onHide={closeModal} centered>
         <Modal.Body>
           {selectedImage && (
@@ -137,6 +137,7 @@ export default function Commercial() {
     </div>
   );
 }
+
 
 
 
